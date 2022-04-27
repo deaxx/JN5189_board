@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2022-04-27T14:15:56Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 0.847044,
+        "LayerNumber": 4,
+        "Name": {
+            "ProjectId": "jn5189_pcb_v1"
+        },
+        "Owner": "D A <deaxx13@gmail.com>",
+        "Size": {
+            "X": 16.0528,
+            "Y": 30.011
+        }
+    }
+}
