@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.127" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -207,7 +207,7 @@
 <text x="12.548271875" y="16.705046875" size="0.8128" layer="26" font="vector" ratio="18" rot="MR90">PIO15/ADC1</text>
 <text x="3.0495" y="8.53761875" size="1.27" layer="25" font="vector" ratio="24" rot="R270">.</text>
 <text x="12.3205" y="15.52261875" size="1.27" layer="25" font="vector" ratio="24" rot="R270">.</text>
-<text x="15.723271875" y="15.435046875" size="1.27" layer="25" font="vector" ratio="16" distance="61" rot="R90">t.me/deaxx</text>
+<text x="15.723271875" y="15.835046875" size="1.15" layer="25" font="vector" ratio="16" distance="61" rot="R90">t.me/deaxx</text>
 <polygon width="0.1524" layer="41">
 <vertex x="11.593359375" y="7.02674375"/>
 <vertex x="11.593359375" y="3.964059375"/>
@@ -257,6 +257,8 @@
 <wire x1="7.874" y1="16.002" x2="7.747" y2="16.002" width="0.1524" layer="26"/>
 <wire x1="7.874" y1="16.002" x2="8.128" y2="16.002" width="0.1524" layer="26"/>
 <text x="15.9639" y="25.0096" size="0.8128" layer="26" rot="MR0">JLCJLCJLCJLC</text>
+<dimension x1="16.256" y1="0.0381" x2="16.256" y2="30.0491" x3="21.717" y3="15.0436" textsize="1.778" layer="21"/>
+<dimension x1="0.2032" y1="30.0491" x2="16.256" y2="30.0491" x3="8.2296" y3="32.766" textsize="1.778" layer="21"/>
 </plain>
 <libraries>
 <library name="ok-discretes-dev">
@@ -1074,6 +1076,29 @@ Based on layout from TI app note AN043.</description>
 </package3d>
 </packages3d>
 </library>
+<library name="testpad" urn="urn:adsk.eagle:library:385">
+<description>&lt;b&gt;Test Pins/Pads&lt;/b&gt;&lt;p&gt;
+Cream on SMD OFF.&lt;br&gt;
+new: Attribute TP_SIGNAL_NAME&lt;br&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="TP11R" urn="urn:adsk.eagle:footprint:27918/1" library_version="3">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
+<smd name="TP" x="0" y="0" dx="1.1" dy="1.1" layer="1" roundness="100" cream="no"/>
+<text x="-0.5499" y="0.5999" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.508" y="-0.508" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="0" y="-1.905" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="TP11R" urn="urn:adsk.eagle:package:27961/1" type="box" library_version="3">
+<description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP11R"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1266,7 +1291,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="11.587946875" y="7.185671875" size="0.762" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="C1" library="ok-discretes-dev" package="_PKG_C_0805" value="10u" x="13.195146875" y="2.627765625" smashed="yes" rot="R90">
-<attribute name="NAME" x="14.904421875" y="2.3844375" size="0.762" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="15.004421875" y="2.2844375" size="0.762" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="14.719146875" y="0.849765625" size="0.762" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="E1" library="SparkFun-RF" library_urn="urn:adsk.eagle:library:531" package="TRACE_ANTENNA_2.4GHZ_15.2MM" package3d_urn="urn:adsk.eagle:package:39575/1" value="ANTENNA-GROUNDEDTRACE-15.2MM" x="4.1452" y="24.9126" smashed="yes" rot="SR0">
@@ -1299,7 +1324,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEY_PART" value="1253-2042-1-ND" x="2.54" y="8.001" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG_NAME" value="KYOCERA" x="2.54" y="8.001" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG_PART" value="CX2016DB48000C0FPLC1" x="2.54" y="8.001" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="2.286" y="9.271" size="0.762" layer="25"/>
+<attribute name="NAME" x="2.286" y="9.471" size="0.762" layer="25"/>
 <attribute name="VALUE" x="0" y="9.271" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C20" library="ok-discretes-dev" package="_PKG_C_0402" value="12p" x="14.530828125" y="14.133425" smashed="yes" rot="R270">
@@ -1322,7 +1347,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="7.113884375" y="11.093909375" size="0.508" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="C13" library="ok-discretes-dev" package="_PKG_C_0402" value="100n" x="9.263021875" y="11.605109375" smashed="yes" rot="R270">
-<attribute name="NAME" x="8.026603125" y="13.555028125" size="0.762" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="8.026603125" y="12.855028125" size="0.762" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="8.247021875" y="12.494109375" size="0.508" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="R5" library="ok-discretes-dev" package="_PKG_C_0402" value="0" x="6.75055" y="10.215371875" smashed="yes" rot="R90">
@@ -1338,13 +1363,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESCRIPTION" value=" RESISTOR, 0402 0.063W 1% 3M6; Resistance:3.6Mohm; Resistance Tolerance:± 1%; Power Rating:0.063W; Voltage Rating:50V; Series:RC32H; Temperature Coefficient:± 100ppm/°C; Resistor Element Type:Thick Film; Resistor Case Style:0402; No. of Pins:2; SVHC:No SVHC; Case Style:0402; External Length / Height:1mm; Temperature Coeff. +:100ppm/°C; Temperature Coeff. -:100ppm/°C; External Depth:0.35mm; External Width:0.5mm; Operating Temperature Range:-55°C to +155°C; Overload Voltage:100V " x="6.736665625" y="13.02115625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Yageo" x="6.736665625" y="13.02115625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MP" value="RC0402FR-073M6L" x="6.736665625" y="13.02115625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="5.435259375" y="13.637278125" size="0.762" layer="25" rot="R270"/>
+<attribute name="NAME" x="4.935259375" y="12.737278125" size="0.762" layer="25"/>
 <attribute name="PACKAGE" value="1005 Panasonic Electronic Components" x="6.736665625" y="13.02115625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="6.736665625" y="13.02115625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/RC0402FR-073M6L/?ref=eda" x="6.736665625" y="13.02115625" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C24" library="ok-discretes-dev" package="_PKG_C_0402" value="1.2p" x="7.162640625" y="14.418878125" smashed="yes">
-<attribute name="NAME" x="7.162640625" y="15.053878125" size="0.762" layer="25" font="vector"/>
+<attribute name="NAME" x="4.562640625" y="14.053878125" size="0.762" layer="25" font="vector"/>
 <attribute name="VALUE" x="6.273640625" y="13.402878125" size="0.508" layer="27" font="vector"/>
 </element>
 <element name="R4" library="ok-discretes-dev" package="_PKG_C_0402" value="0" x="6.25204375" y="18.1622375" smashed="yes">
@@ -1356,7 +1381,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="5.666403125" y="20.441625" size="0.508" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="C11" library="ok-discretes-dev" package="_PKG_C_0402" value="100n" x="11.616896875" y="2.029578125" smashed="yes" rot="R90">
-<attribute name="NAME" x="11.070590625" y="0.7910125" size="0.762" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="9.470590625" y="1.1910125" size="0.762" layer="25" font="vector"/>
 <attribute name="VALUE" x="12.632896875" y="1.140578125" size="0.508" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="C19" library="ok-discretes-dev" package="_PKG_C_0805" value="10u" x="10.997221875" y="11.2737875" smashed="yes" rot="R90">
@@ -1370,6 +1395,31 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="L4" library="ok-discretes-dev" package="_PKG_C_0805" value="4.7uH" x="13.0407625" y="9.7488375" smashed="yes" rot="R270">
 <attribute name="NAME" x="13.9297625" y="10.0028375" size="0.762" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="11.5167625" y="11.5268375" size="0.508" layer="27" font="vector" rot="R270"/>
+</element>
+<element name="GND" library="testpad" library_urn="urn:adsk.eagle:library:385" package="TP11R" package3d_urn="urn:adsk.eagle:package:27961/1" value="TPSTP11R" x="6.5" y="1.5" smashed="yes" rot="MR0">
+<attribute name="POPULARITY" value="0" x="11.3" y="8.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="6.5" y="-0.405" size="1" layer="38" rot="MR0"/>
+<attribute name="VALUE" x="7.008" y="0.992" size="0.0254" layer="28" rot="MR0"/>
+</element>
+<element name="3V3" library="testpad" library_urn="urn:adsk.eagle:library:385" package="TP11R" package3d_urn="urn:adsk.eagle:package:27961/1" value="TPSTP11R" x="7.8" y="1.5" smashed="yes" rot="MR0">
+<attribute name="POPULARITY" value="0" x="7.8" y="8.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="7.8" y="-0.405" size="1" layer="38" rot="MR0"/>
+<attribute name="VALUE" x="8.308" y="0.992" size="0.0254" layer="28" rot="MR0"/>
+</element>
+<element name="RXD" library="testpad" library_urn="urn:adsk.eagle:library:385" package="TP11R" package3d_urn="urn:adsk.eagle:package:27961/1" value="TPSTP11R" x="5.2" y="1.5" smashed="yes" rot="MR0">
+<attribute name="POPULARITY" value="0" x="5.2" y="-2" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="5.2" y="-0.405" size="1" layer="38" rot="MR0"/>
+<attribute name="VALUE" x="5.708" y="0.992" size="0.0254" layer="28" rot="MR0"/>
+</element>
+<element name="ISP" library="testpad" library_urn="urn:adsk.eagle:library:385" package="TP11R" package3d_urn="urn:adsk.eagle:package:27961/1" value="TPSTP11R" x="2.6" y="1.5" smashed="yes" rot="MR0">
+<attribute name="POPULARITY" value="0" x="2.6" y="-2" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="2.6" y="-0.405" size="1" layer="38" rot="MR0"/>
+<attribute name="VALUE" x="3.108" y="0.992" size="0.0254" layer="28" rot="MR0"/>
+</element>
+<element name="TXD" library="testpad" library_urn="urn:adsk.eagle:library:385" package="TP11R" package3d_urn="urn:adsk.eagle:package:27961/1" value="TPSTP11R" x="3.9" y="1.5" smashed="yes" rot="MR0">
+<attribute name="POPULARITY" value="0" x="3.9" y="-12.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="3.9" y="-0.405" size="1" layer="38" rot="MR0"/>
+<attribute name="VALUE" x="4.408" y="0.992" size="0.0254" layer="28" rot="MR0"/>
 </element>
 </elements>
 <signals>
@@ -1949,11 +1999,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="13.728278125" y="0.63588125" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="0.901278125" y="0.50888125" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="0.901278125" y="1.52488125" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="2.552278125" y="1.52488125" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="1.028278125" y="8.12888125" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="1.028278125" y="9.52588125" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="1.028278125" y="10.79588125" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="1.663278125" y="2.41388125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="3.101278125" y="3.12488125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="1.601278125" y="3.12488125" extent="1-16" drill="0.2" diameter="0.45"/>
+<contactref element="GND" pad="TP"/>
+<via x="1.772278125" y="24.62988125" extent="1-16" drill="0.2" diameter="0.45"/>
 </signal>
 <signal name="VDD1">
 </signal>
@@ -2129,6 +2181,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="14.097" y1="12.573" x2="14.097" y2="8.255" width="0.254" layer="15"/>
 <wire x1="12.827" y1="6.985" x2="11.811" y2="6.985" width="0.254" layer="15"/>
 <wire x1="14.097" y1="8.255" x2="12.827" y2="6.985" width="0.254" layer="15"/>
+<contactref element="3V3" pad="TP"/>
+<wire x1="7.8" y1="1.5" x2="9.3" y2="1.5" width="0.254" layer="16"/>
+<wire x1="9.6" y1="1.2" x2="11.7" y2="1.2" width="0.254" layer="16"/>
+<wire x1="11.7" y1="1.2" x2="14.31" y2="3.81" width="0.254" layer="16"/>
+<wire x1="14.31" y1="3.81" x2="16.256" y2="3.81" width="0.254" layer="16"/>
+<wire x1="9.3" y1="1.5" x2="9.6" y2="1.2" width="0.254" layer="16"/>
 </signal>
 <signal name="N$1">
 <contactref element="U$1" pad="29"/>
@@ -2288,16 +2346,20 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U$1" pad="12"/>
 <contactref element="J2" pad="3"/>
 <wire x1="5.743" y1="2.461" x2="5.743" y2="0.79" width="0.1524" layer="1"/>
-<wire x1="5.743" y1="0.79" x2="5.2705" y2="0.3175" width="0.1524" layer="1"/>
-<wire x1="5.2705" y1="0.3175" x2="5.2654" y2="0.3124" width="0.1524" layer="1"/>
+<wire x1="5.743" y1="0.79" x2="5.2594" y2="0.3064" width="0.1524" layer="1"/>
 <wire x1="5.2594" y1="0.0127" x2="5.2594" y2="0.3064" width="0.1524" layer="1"/>
-<wire x1="5.2594" y1="0.3064" x2="5.2654" y2="0.3124" width="0.1524" layer="1"/>
+<contactref element="RXD" pad="TP"/>
+<wire x1="5.2594" y1="1.4406" x2="5.2" y2="1.5" width="0.1524" layer="16"/>
+<wire x1="5.2594" y1="0.0127" x2="5.2594" y2="1.4406" width="0.1524" layer="16"/>
 </signal>
 <signal name="PIO8">
 <contactref element="U$1" pad="11"/>
 <contactref element="J2" pad="2"/>
 <wire x1="3.9894" y1="0.0127" x2="5.243" y2="1.2663" width="0.1524" layer="1"/>
 <wire x1="5.243" y1="1.2663" x2="5.243" y2="2.461" width="0.1524" layer="1"/>
+<contactref element="TXD" pad="TP"/>
+<wire x1="3.9894" y1="1.4106" x2="3.9" y2="1.5" width="0.1524" layer="16"/>
+<wire x1="3.9894" y1="0.0127" x2="3.9894" y2="1.4106" width="0.1524" layer="16"/>
 </signal>
 <signal name="PIO7">
 <contactref element="U$1" pad="10"/>
@@ -2316,10 +2378,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="PIO5">
 <contactref element="U$1" pad="8"/>
 <contactref element="J1" pad="10"/>
-<wire x1="4.493" y1="4.211" x2="0.635" y2="4.211" width="0.1524" layer="1"/>
-<wire x1="0.521140625" y1="4.211" x2="0.4775" y2="4.167359375" width="0.1524" layer="1"/>
-<wire x1="0.1635" y1="3.853359375" x2="0.4775" y2="4.167359375" width="0.1524" layer="1"/>
-<wire x1="0.521140625" y1="4.211" x2="0.635" y2="4.211" width="0.1524" layer="1"/>
+<wire x1="4.493" y1="4.211" x2="0.521140625" y2="4.211" width="0.1524" layer="1"/>
+<wire x1="0.1635" y1="3.853359375" x2="0.521140625" y2="4.211" width="0.1524" layer="1"/>
+<contactref element="ISP" pad="TP"/>
+<wire x1="2.6" y1="1.5" x2="2.6" y2="3" width="0.1524" layer="16"/>
+<wire x1="1.746640625" y1="3.853359375" x2="0.6" y2="3.853359375" width="0.1524" layer="16"/>
+<wire x1="0.6" y1="3.853359375" x2="0.4775" y2="3.853359375" width="0.1524" layer="16"/>
+<wire x1="2.6" y1="3" x2="1.746640625" y2="3.853359375" width="0.1524" layer="16"/>
+<wire x1="0.1635" y1="3.853359375" x2="0.4775" y2="3.853359375" width="0.1524" layer="16"/>
 </signal>
 <signal name="PIO3">
 <contactref element="U$1" pad="6"/>
@@ -10725,6 +10791,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <approved hash="4,14,4e12a611b670a673"/>
 <approved hash="4,14,f4ce1cbd3c442c36"/>
 <approved hash="4,14,7aab92a8bafbaafc"/>
+<approved hash="4,16,c888284169462ff5"/>
+<approved hash="4,16,4164c0404225c749"/>
+<approved hash="4,16,23e1a06dda5d984a"/>
+<approved hash="4,16,ca8dab4e84cc7f71"/>
+<approved hash="19,1,8224db9a245d3729"/>
 </errors>
 </board>
 </drawing>
