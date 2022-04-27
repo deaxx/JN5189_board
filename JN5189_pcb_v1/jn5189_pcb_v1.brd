@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.127" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
@@ -205,7 +205,7 @@
 <text x="10.008271875" y="16.705046875" size="0.8128" layer="26" font="vector" ratio="18" rot="MR90">PIO13/SWDIO</text>
 <text x="11.278271875" y="16.705046875" size="0.8128" layer="26" font="vector" ratio="18" rot="MR90">PIO14/ADC0</text>
 <text x="12.548271875" y="16.705046875" size="0.8128" layer="26" font="vector" ratio="18" rot="MR90">PIO15/ADC1</text>
-<text x="3.0495" y="8.41061875" size="1.27" layer="25" font="vector" ratio="24" rot="R270">.</text>
+<text x="3.0495" y="8.53761875" size="1.27" layer="25" font="vector" ratio="24" rot="R270">.</text>
 <text x="12.3205" y="15.52261875" size="1.27" layer="25" font="vector" ratio="24" rot="R270">.</text>
 <text x="15.723271875" y="15.435046875" size="1.27" layer="25" font="vector" ratio="16" distance="61" rot="R90">t.me/deaxx</text>
 <polygon width="0.1524" layer="41">
@@ -1266,7 +1266,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="11.587946875" y="7.185671875" size="0.762" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="C1" library="ok-discretes-dev" package="_PKG_C_0805" value="10u" x="13.195146875" y="2.627765625" smashed="yes" rot="R90">
-<attribute name="NAME" x="13.634421875" y="2.1304375" size="0.762" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="14.904421875" y="2.3844375" size="0.762" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="14.719146875" y="0.849765625" size="0.762" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="E1" library="SparkFun-RF" library_urn="urn:adsk.eagle:library:531" package="TRACE_ANTENNA_2.4GHZ_15.2MM" package3d_urn="urn:adsk.eagle:package:39575/1" value="ANTENNA-GROUNDEDTRACE-15.2MM" x="4.1452" y="24.9126" smashed="yes" rot="SR0">
@@ -1299,38 +1299,38 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEY_PART" value="1253-2042-1-ND" x="2.54" y="8.001" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG_NAME" value="KYOCERA" x="2.54" y="8.001" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG_PART" value="CX2016DB48000C0FPLC1" x="2.54" y="8.001" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="2.286" y="8.509" size="0.762" layer="25" rot="R270"/>
+<attribute name="NAME" x="2.286" y="9.271" size="0.762" layer="25"/>
 <attribute name="VALUE" x="0" y="9.271" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C20" library="ok-discretes-dev" package="_PKG_C_0402" value="12p" x="14.530828125" y="14.133425" smashed="yes" rot="R270">
-<attribute name="NAME" x="14.276828125" y="14.387425" size="0.508" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="12.498828125" y="15.149425" size="0.762" layer="25" font="vector"/>
 <attribute name="VALUE" x="13.514828125" y="15.022425" size="0.508" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="C21" library="ok-discretes-dev" package="_PKG_C_0402" value="12p" x="9.704828125" y="14.133425" smashed="yes" rot="R270">
-<attribute name="NAME" x="9.450828125" y="14.641425" size="0.508" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="9.069828125" y="15.022425" size="0.762" layer="25" font="vector"/>
 <attribute name="VALUE" x="8.688828125" y="15.022425" size="0.508" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="Y1" library="ok-xtal-osc-dev" package="XTAL-2P-3215" value="32.768KHz" x="12.117828125" y="14.133425" smashed="yes" rot="R180">
 <attribute name="LCSC_PART" value="C32346" x="12.117828125" y="19.975425" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG_NAME" value="SEIKO EPSON" x="12.117828125" y="19.975425" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG_PART" value="Q13FC1350000400" x="12.117828125" y="19.975425" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="12.621828125" y="14.387425" size="0.762" layer="25" rot="R180"/>
+<attribute name="NAME" x="12.748828125" y="14.514425" size="0.762" layer="25" rot="R180"/>
 <attribute name="VALUE" x="13.637828125" y="16.038425" size="0.762" layer="27" rot="R180"/>
 </element>
 <element name="C14" library="ok-discretes-dev" package="_PKG_C_0402" value="47p" x="8.129884375" y="10.204909375" smashed="yes" rot="R270">
-<attribute name="NAME" x="7.8483625" y="10.818934375" size="0.508" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="8.8643625" y="10.818934375" size="0.762" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="7.113884375" y="11.093909375" size="0.508" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="C13" library="ok-discretes-dev" package="_PKG_C_0402" value="100n" x="9.263021875" y="11.605109375" smashed="yes" rot="R270">
-<attribute name="NAME" x="9.042603125" y="12.158028125" size="0.508" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="8.026603125" y="13.555028125" size="0.762" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="8.247021875" y="12.494109375" size="0.508" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="R5" library="ok-discretes-dev" package="_PKG_C_0402" value="0" x="6.75055" y="10.215371875" smashed="yes" rot="R90">
-<attribute name="NAME" x="7.00151875" y="9.937428125" size="0.508" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="5.09651875" y="10.064428125" size="0.762" layer="25" font="vector"/>
 <attribute name="VALUE" x="7.76655" y="9.326371875" size="0.508" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="C25" library="ok-discretes-dev" package="_PKG_C_0402" value="2p" x="7.17705" y="11.6066875" smashed="yes">
-<attribute name="NAME" x="6.618078125" y="11.30685" size="0.508" layer="25" font="vector"/>
+<attribute name="NAME" x="4.459078125" y="11.30685" size="0.762" layer="25" font="vector"/>
 <attribute name="VALUE" x="6.28805" y="10.5906875" size="0.508" layer="27" font="vector"/>
 </element>
 <element name="L2" library="discretes-dev" package="INDC1005X40N" value="3.3n" x="6.736665625" y="13.02115625" smashed="yes" rot="R270">
@@ -1338,37 +1338,37 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESCRIPTION" value=" RESISTOR, 0402 0.063W 1% 3M6; Resistance:3.6Mohm; Resistance Tolerance:± 1%; Power Rating:0.063W; Voltage Rating:50V; Series:RC32H; Temperature Coefficient:± 100ppm/°C; Resistor Element Type:Thick Film; Resistor Case Style:0402; No. of Pins:2; SVHC:No SVHC; Case Style:0402; External Length / Height:1mm; Temperature Coeff. +:100ppm/°C; Temperature Coeff. -:100ppm/°C; External Depth:0.35mm; External Width:0.5mm; Operating Temperature Range:-55°C to +155°C; Overload Voltage:100V " x="6.736665625" y="13.02115625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Yageo" x="6.736665625" y="13.02115625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MP" value="RC0402FR-073M6L" x="6.736665625" y="13.02115625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="6.578259375" y="13.256278125" size="0.5" layer="25" rot="R270"/>
+<attribute name="NAME" x="5.435259375" y="13.637278125" size="0.762" layer="25" rot="R270"/>
 <attribute name="PACKAGE" value="1005 Panasonic Electronic Components" x="6.736665625" y="13.02115625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="6.736665625" y="13.02115625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/RC0402FR-073M6L/?ref=eda" x="6.736665625" y="13.02115625" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C24" library="ok-discretes-dev" package="_PKG_C_0402" value="1.2p" x="7.162640625" y="14.418878125" smashed="yes">
-<attribute name="NAME" x="6.273640625" y="15.053878125" size="0.508" layer="25" font="vector"/>
+<attribute name="NAME" x="7.162640625" y="15.053878125" size="0.762" layer="25" font="vector"/>
 <attribute name="VALUE" x="6.273640625" y="13.402878125" size="0.508" layer="27" font="vector"/>
 </element>
 <element name="R4" library="ok-discretes-dev" package="_PKG_C_0402" value="0" x="6.25204375" y="18.1622375" smashed="yes">
-<attribute name="NAME" x="6.041865625" y="17.0685" size="0.508" layer="25" font="vector"/>
+<attribute name="NAME" x="5.787865625" y="16.9415" size="0.762" layer="25" font="vector"/>
 <attribute name="VALUE" x="5.36304375" y="17.1462375" size="0.508" layer="27" font="vector"/>
 </element>
 <element name="R3" library="ok-discretes-dev" package="_PKG_C_0402" value="0" x="6.682403125" y="19.552625" smashed="yes" rot="R270">
-<attribute name="NAME" x="7.24315625" y="19.890125" size="0.508" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="7.24315625" y="20.017125" size="0.762" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="5.666403125" y="20.441625" size="0.508" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="C11" library="ok-discretes-dev" package="_PKG_C_0402" value="100n" x="11.616896875" y="2.029578125" smashed="yes" rot="R90">
-<attribute name="NAME" x="11.959590625" y="1.5530125" size="0.508" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="11.070590625" y="0.7910125" size="0.762" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="12.632896875" y="1.140578125" size="0.508" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="C19" library="ok-discretes-dev" package="_PKG_C_0805" value="10u" x="10.997221875" y="11.2737875" smashed="yes" rot="R90">
-<attribute name="NAME" x="11.251221875" y="10.7657875" size="0.508" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="14.553221875" y="10.3847875" size="0.762" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="12.521221875" y="9.4957875" size="0.508" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R2" library="ok-discretes-dev" package="_PKG_C_0402" value="NC" x="13.005709375" y="11.96433125" smashed="yes" rot="R180">
-<attribute name="NAME" x="13.360096875" y="12.271209375" size="0.508" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="13.614096875" y="13.160209375" size="0.762" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="13.894709375" y="12.98033125" size="0.508" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="L4" library="ok-discretes-dev" package="_PKG_C_0805" value="4.7uH" x="13.0407625" y="9.7488375" smashed="yes" rot="R270">
-<attribute name="NAME" x="12.7867625" y="10.1298375" size="0.508" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="13.9297625" y="10.0028375" size="0.762" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="11.5167625" y="11.5268375" size="0.508" layer="27" font="vector" rot="R270"/>
 </element>
 </elements>
@@ -1937,6 +1937,23 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="14.530828125" y1="15.40843125" x2="14.752278125" y2="15.62988125" width="0.254" layer="1"/>
 <wire x1="12.603946875" y1="5.866671875" x2="12.040328125" y2="5.866671875" width="0.254" layer="1"/>
 <wire x1="12.040328125" y1="5.866671875" x2="11.938" y2="5.969" width="0.254" layer="1"/>
+<via x="15.379278125" y="14.22488125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="15.506278125" y="11.93888125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="15.506278125" y="10.79588125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="15.506278125" y="9.39888125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="15.506278125" y="6.85888125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="15.506278125" y="5.58888125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="15.760278125" y="1.65188125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="15.760278125" y="0.63588125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="14.744278125" y="0.63588125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="13.728278125" y="0.63588125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="0.901278125" y="0.50888125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="0.901278125" y="1.52488125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="2.552278125" y="1.52488125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="1.028278125" y="8.12888125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="1.028278125" y="9.52588125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="1.028278125" y="10.79588125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="1.663278125" y="2.41388125" extent="1-16" drill="0.2" diameter="0.45"/>
 </signal>
 <signal name="VDD1">
 </signal>
