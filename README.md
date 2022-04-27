@@ -2,3 +2,4 @@
 mini-dev board on E180-Z8910SX
 
 ![Top layer](./E180-Z8910SX_top.png)
+![Bottom layer](./E180-Z8910SX_bottom.png)
