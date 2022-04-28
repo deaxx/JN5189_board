@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.127" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
+<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -1449,9 +1449,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 <polygon width="0.1524" layer="16" thermals="no">
 <vertex x="0.1778" y="-0.1524"/>
-<vertex x="16.5288" y="-0.1524"/>
-<vertex x="16.5288" y="24.8689"/>
-<vertex x="0.1778" y="24.8689"/>
+<vertex x="16.4488" y="-0.1524"/>
+<vertex x="16.4488" y="24.8989"/>
+<vertex x="0.1778" y="24.8989"/>
 </polygon>
 <contactref element="Y2" pad="2"/>
 <contactref element="Y2" pad="4"/>
@@ -1595,8 +1595,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="14.605" y="7.239"/>
 <vertex x="9.652" y="7.239"/>
 <vertex x="9.652" y="14.859"/>
-<vertex x="16.637" y="14.859"/>
-<vertex x="16.637" y="24.892"/>
+<vertex x="16.487" y="14.859"/>
+<vertex x="16.487" y="24.892"/>
 <vertex x="0.127" y="24.892"/>
 <vertex x="0.127" y="-0.127"/>
 <vertex x="16.637" y="-0.127"/>
@@ -1653,8 +1653,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="5.052615625" y="23.324671875" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="4.749671875" y="23.687315625" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="4.6532625" y="24.1600875" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="4.752278125" y="24.62988125" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="3.533959375" y="24.650271875" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="4.762278125" y="24.70988125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="3.503959375" y="24.710271875" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="3.641009375" y="24.16086875" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="3.709715625" y="23.695321875" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="3.8638875" y="23.24005625" extent="1-16" drill="0.2" diameter="0.45"/>
@@ -1673,17 +1673,17 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="4.532440625" y="18.653771875" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="5.01209375" y="18.65866875" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="5.470946875" y="18.777375" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="5.752278125" y="24.62988125" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="6.752278125" y="24.62988125" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="7.752278125" y="24.62988125" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="8.752278125" y="24.62988125" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="9.752278125" y="24.62988125" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="10.752278125" y="24.62988125" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="11.752278125" y="24.62988125" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="12.752278125" y="24.62988125" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="13.752278125" y="24.62988125" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="14.752278125" y="24.62988125" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="15.752278125" y="24.62988125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="5.752278125" y="24.70988125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="6.752278125" y="24.71988125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="7.752278125" y="24.71988125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="8.742278125" y="24.71988125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="9.752278125" y="24.71988125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="10.752278125" y="24.71988125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="11.762278125" y="24.70988125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="12.742278125" y="24.70988125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="13.752278125" y="24.70988125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="14.752278125" y="24.70988125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="15.742278125" y="24.70988125" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="5.1612625" y="24.1600875" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="5.306615625" y="23.705671875" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="5.644790625" y="23.373615625" extent="1-16" drill="0.2" diameter="0.45"/>
@@ -1863,7 +1863,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="7.752278125" y="15.62988125" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="7.752278125" y="19.12988125" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="7.752278125" y="19.87988125" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="0.672278125" y="24.62988125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="0.662278125" y="24.71988125" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="0.672278125" y="23.61388125" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="0.672278125" y="22.59788125" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="0.672278125" y="21.58188125" extent="1-16" drill="0.2" diameter="0.45"/>
@@ -2019,9 +2019,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="3.101278125" y="3.12488125" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="1.601278125" y="3.12488125" extent="1-16" drill="0.2" diameter="0.45"/>
 <contactref element="GND" pad="TP"/>
-<via x="1.772278125" y="24.62988125" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="3.025959375" y="24.650271875" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="2.390959375" y="24.650271875" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="1.137278125" y="24.70988125" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="3.025959375" y="24.710271875" extent="1-16" drill="0.2" diameter="0.45"/>
 </signal>
 <signal name="VDD1">
 </signal>
